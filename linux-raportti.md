@@ -9,9 +9,11 @@ sivulta https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/ (n. 
 Sen jälkeen latasin Virtual Boxin sivulta https://www.virtualbox.org/wiki/Downloads
 kohdasta VirtualBox 7.0.20 platform packages-Windows hosts (n. 100 MB)
 
-Suoritin ladatun .exe.tiedoston
-click next, seuraavassa click next
-Warning: Network interfaces, click Yes
+Suoritin ladatun .exe.tiedoston, ja klikkasin kolmeen ensimmäiseen kohtaan next.click next.
+
+Tässä kohtaa tuli ilmoitus, että koneesta puuttui Python core/win32api
+ ![Add file: Upload](kuva1.jpg)
+
 duckduckasin Python core package win32.api virtual box
 sivu https://www.sysnettechsolutions.com/en/fix-python-win32api-virtualbox/
 Sivun ohjeiden perusteella latasin sivulta https://www.python.org/downloads/ 
