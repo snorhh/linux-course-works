@@ -12,7 +12,7 @@
 -	Free software eli vapaa ohjelmisto tarkoittaa, että kuka tahansa voi käyttää, muokata, tutkia ja jakaa ohjelmistoa. 
 -	Neljä tärkeää vapautta:
       - Vapaus käyttää (ajaa) ohjelmaa mihin tarkoitukseen vaan.
- 	    - Vapaus tutkia ja muuttaa ohjelman toimintaa haluamallasi tavalla. Lähdekoodin täytyy siis olla saavutettavissa.
+ 	- Vapaus tutkia ja muuttaa ohjelman toimintaa haluamallasi tavalla. Lähdekoodin täytyy siis olla saavutettavissa.
       - Vapaus jakaa ohjelman kopioita muille.
       - Vapaus jakaa tekemiäsi muutoksia muille, jotta he voivat hyötyä muutoksista. 
 -	Vapaa ohjelmisto eroaa vapaan lähdekoodin ohjelmistoista. Vapaa ohjelmisto on eettinen näkökulma siitä, että ohjelmistojen tulisi olla vapaita kaikkien käytettäviksi.
@@ -130,5 +130,6 @@ Uudelleenkäynnistys ja lopetus.
 - Karvinen, Tero, Install Debian on Virtualbox - updated 2023 https://terokarvinen.com/2021/install-debian-on-virtualbox/
 - Debian.org, sähköpostilista https://lists.debian.org/debian-input-method/2024/02/msg00040.html
 - Bagci, Tolca, 22.7.2024, How to Fix Missing Dependencies Python Core / win32api in VirtualBox https://www.sysnettechsolutions.com/en/fix-python-win32api-virtualbox/
+- ChatGPT 4o (MarkDown-ohjeita)
 
 
