@@ -23,7 +23,7 @@ Suoritin ladatun .exe.tiedoston, ja klikkasin kolmeen ensimmäiseen kohtaan next
 Tässä kohtaa tuli ilmoitus, että koneesta puuttui Python core/win32api
  ![Add file: Upload](kuva1.jpg)
 
-Keskeytin asennuksen, ja Duckduckgo-haualla löysin sivun  <a href"="https://www.sysnettechsolutions.com/en/fix-python-win32api-virtualbox/>https://www.sysnettechsolutions.com/en/fix-python-win32api-virtualbox/</a>, jonka ohjeiden perusteella latasin sivulta  <a href="https://www.python.org/downloads/" />Python.org-sivustolta</a> tiedoston python-3.12.5-amd64.exe. Suoritin sen admin.oikeuksilla ja klikkasin boksit "use admin privileges when installing py.exe" sekä "add python to Path"
+Keskeytin asennuksen, ja Duckduckgo-haualla löysin sivun  <a href"="https://www.sysnettechsolutions.com/en/fix-python-win32api-virtualbox/">https://www.sysnettechsolutions.com/en/fix-python-win32api-virtualbox/</a>, jonka ohjeiden perusteella latasin sivulta  <a href="https://www.python.org/downloads/">Python.org-sivustolta</a> tiedoston python-3.12.5-amd64.exe. Suoritin sen admin.oikeuksilla ja klikkasin boksit "use admin privileges when installing py.exe" sekä "add python to Path"
 
  ![Add file: Upload](kuva2.jpg)
 klo 14:16  
@@ -80,7 +80,7 @@ Klo 16:39
 Tässä kohtaa tuli ilmoitus:  
 Ibus Notification
 Keymap changes do not work in Plasma Wayland at present. Please use systemsettings5 instead.
-Googlasin ja löysin keskustelun <a href="https://lists.debian.org/debian-input-method/2024/02/msg00040.html />Debian.org-sivustolta</a>, jonka perusteella päätin jättää välittämättä ilmoituksesta.
+Googlasin ja löysin keskustelun <a href="https://lists.debian.org/debian-input-method/2024/02/msg00040.html">Debian.org-sivustolta</a>, jonka perusteella päätin jättää välittämättä ilmoituksesta.
 
  ![Add file: Upload](kuva5.jpg)
  
