@@ -8,8 +8,8 @@
 -	Helppolukuisuus: Käytä väliotsikoita ja huolellista kieltä. Raportin alkuun voit lisätä lyhyen tiivistelmän.
 -	Viittaa lähteisiin ja lisää halutessasi lisenssi. Älä sepitä, plagioi tai käydä muiden kuvia luvatta.
 
-Tiivistelmä tekstistä What is Free Software?  https://www.gnu.org/philosophy/free-sw.html
--	Free software eli vapaa ohjelmisto, tarkoittaa että kuka tahansa voi käyttää, muokata, tutkia ja jakaa ohjelmistoa. 
+### Tiivistelmä tekstistä What is Free Software?  https://www.gnu.org/philosophy/free-sw.html
+-	Free software eli vapaa ohjelmisto tarkoittaa, että kuka tahansa voi käyttää, muokata, tutkia ja jakaa ohjelmistoa. 
 -	Neljä tärkeää vapautta:
 •	Vapaus käyttää (ajaa) ohjelmaa mihin tarkoitukseen vaan.
 •	Vapaus tutkia ja muuttaa ohjelman toimintaa haluamallasi tavalla. Lähdekoodin täytyy siis olla saavutettavissa.
@@ -32,23 +32,24 @@ Tiivistelmä tekstistä What is Free Software?  https://www.gnu.org/philosophy/f
 
 Klo 13:50  
 Latasin Debian Iso imagen, tiedosto debian-live-12.6.0-amd64-xfce.iso 
-<a href="https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/">Debian-sivulta</a> (n. 3GB)
+<a href="https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/">Debian-sivulta</a> (n. 3 GB).
 
+Sen jälkeen latasin Virtual Boxin sivulta <a href="https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid">Virtualbox.org</a> 
+kohdasta "VirtualBox 7.0.20 platform packages-Windows hosts" (n. 100 MB).
 
-Sen jälkeen latasin Virtual Boxin sivulta <a href="https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid">Virtualbox.org-sivustolta</a> 
-kohdasta VirtualBox 7.0.20 platform packages-Windows hosts (n. 100 MB)
+Suoritin ladatun .exe-tiedoston ja klikkasin kolmeen ensimmäiseen kohtaan "next".
 
-Suoritin ladatun .exe.tiedoston, ja klikkasin kolmeen ensimmäiseen kohtaan next.click next.
-
-Tässä kohtaa tuli ilmoitus, että koneesta puuttui Python core/win32api
+### Python core puuttuu
+Tässä kohtaa tuli ilmoitus, että koneesta puuttui Python core/win32api.
  ![Add file: Upload](kuva1.jpg)
 
-Keskeytin asennuksen, ja Duckduckgo-haualla löysin sivun  <a href="https://www.sysnettechsolutions.com/en/fix-python-win32api-virtualbox/">https://www.sysnettechsolutions.com/en/fix-python-win32api-virtualbox/</a>, jonka ohjeiden perusteella latasin sivulta  <a href="https://www.python.org/downloads/">Python.org-sivustolta</a> tiedoston python-3.12.5-amd64.exe. Suoritin sen admin.oikeuksilla ja klikkasin boksit "use admin privileges when installing py.exe" sekä "add python to Path"
+Keskeytin asennuksen, ja Duckduckgo-haualla löysin sivun  <a href="https://www.sysnettechsolutions.com/en/fix-python-win32api-virtualbox/">https://www.sysnettechsolutions.com/en/fix-python-win32api-virtualbox/</a>, jonka ohjeiden perusteella latasin <a href="https://www.python.org/downloads/">Python.org-sivustolta</a> tiedoston "python-3.12.5-amd64.exe". Suoritin sen admin-oikeuksilla ja klikkasin boksit "use admin privileges when installing py.exe" sekä "add python to Path".
 
  ![Add file: Upload](kuva2.jpg)
 klo 14:16  
 Sivuston ohjeen mukaan avasin Powershellin admin-oikeuksilla. (Tässä vaiheessa varmistin ChatGPT:ltä, että sivuston antama komento ei ainakaan tee mitään pahaa.) Suoritin komennon “py -m pip install pywin32”. (En nähnyt sivustolla mainittua pip-päivitystä, joten en tehnyt siihen liittyvää kohtaa.)
 
+### Asennus alusta
 Klo 14:22  
 Aloitin siis Virtual Boxin asennuksen uudelleen. Taas klikkasin kaksi kertaa next, varoituksesta next, Custom Setup-kohdast jätin kaikki valituiksi (Create start menu entries etc). Sen Jälkeen "Click installation". Tämän jälkeen klikkasin Finish.
 
