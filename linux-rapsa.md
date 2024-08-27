@@ -120,7 +120,7 @@ Klo 17:05
 Työpöydän saamiseksi isommaksi tein seuraavaa. Virtual Boxin kohdasta "Devices" valitsin "Insert Guest Additions CD image", ja se ilmestyi Debianin desktoppiin. Debianin kohdasta Applications, File manager ja sieltä Devices-kohdassa etsin desktopista kyseisen tiedoston.
 
 Klo 17:11  
-Avasin Terminator emulatorin ja kirjoitin "cd /media/\*\/Vbox\*\ ja sitten ls. Kun olin oikeassa kansiossa, kirjoitin "sudo bash VBoxLinuxAdditions.run". Jotain alkoi tapahtua. Sitten tuli ilmoitus "Kernel headers not found for target kernel 6.1.0-23-amd64 please install them and execute." Työpöytä oli kuitenkin muuttunut isoksi, joten en välittänyt huomautuksesta.
+Avasin Terminator emulatorin ja kirjoitin "cd /media/\*\/Vbox\* ja sitten ls. Kun olin oikeassa kansiossa, kirjoitin "sudo bash VBoxLinuxAdditions.run". Jotain alkoi tapahtua. Sitten tuli ilmoitus "Kernel headers not found for target kernel 6.1.0-23-amd64 please install them and execute." Työpöytä oli kuitenkin muuttunut isoksi, joten en välittänyt huomautuksesta.
 
  ![Add file: Upload](kuva7.jpg)
  
