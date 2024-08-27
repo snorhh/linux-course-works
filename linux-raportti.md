@@ -1,3 +1,23 @@
+#Linux-palvelimet
+##Tehtävä h1
+
+###Tiivistelmä tekstistä Raportin kirjoittaminen, Karvinen, Tero, 6.6.2006 https://terokarvinen.com/2006/raportin-kirjoittaminen-4/ 
+-	Miksi kirjoittaa raportti? Asiat muistiin ja samalla ajatukset selkenevät.
+-	Toistettavuus: jonkun toisen tekemänä pitää tulla sama tulos, muista raportoida myös laitteisto.
+-	Täsmällisyys: mitä teit ja milloin, mitä sitten tapahtui tai ei tapahtunut. Mistä tiedät mitä tapahtui? Raportoi tarvittaessa eteenpäin laitteistosta tai ohjelmiston vioista.
+-	Helppolukuisuus: Käytä väliotsikoita ja huolellista kieltä. Raportin alkuun voit lisätä lyhyen tiivistelmän.
+-	Viittaa lähteisiin ja lisää halutessasi lisenssi. Älä sepitä, plagioi tai käydä muiden kuvia luvatta.
+
+Tiivistelmä tekstistä What is Free Software?  https://www.gnu.org/philosophy/free-sw.html
+-	Free software eli vapaa ohjelmisto, tarkoittaa että kuka tahansa voi käyttää, muokata, tutkia ja jakaa ohjelmistoa. 
+-	Neljä tärkeää vapautta:
+•	Vapaus käyttää (ajaa) ohjelmaa mihin tarkoitukseen vaan.
+•	Vapaus tutkia ja muuttaa ohjelman toimintaa haluamallasi tavalla. Lähdekoodin täytyy siis olla saavutettavissa.
+•	Vapaus jakaa ohjelman kopioita muille.
+•	Vapaus jakaa tekemiäsi muutoksia muille, jotta he voivat hyötyä muutoksista. 
+-	Vapaa ohjelmisto eroaa vapaan lähdekoodin ohjelmistoista. Vapaa ohjelmisto on eettinen näkökulma siitä, että ohjelmistojen tulisi olla vapaita kaikkien käytettäviksi.
+-	Vapaita ohjelmistoja voi käyttää kaupallisessa tarkoituksessa, esimerkiksi tarjoamalla niille tukipalveluja.
+
 # Virtual Boxin ja Linuxin asennus
 
 ## Laitteisto
