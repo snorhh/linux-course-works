@@ -2,8 +2,7 @@
 
 
 
-Klo 13:50 
-Latasin Debian Iso imagen, tiedosto debian-live-12.6.0-amd64-xfce.iso 
+Klo 13:50  Latasin Debian Iso imagen, tiedosto debian-live-12.6.0-amd64-xfce.iso 
 sivulta https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/ (n. 3GB)
 
 Sen jälkeen latasin Virtual Boxin sivulta https://www.virtualbox.org/wiki/Downloads
@@ -18,16 +17,13 @@ Keskeytin asennuksen, ja Duckduckgo-haualla löysin sivun  https://www.sysnettec
 ja klikkasin boksit "use admin privileges when installing py.exe" sekä "add python to Path"
 
  ![Add file: Upload](kuva2.jpg)
-klo 14:16
-Sivuston ohjeen mukaan avasin Powershellin admin-oikeuksilla. (Tässä vaiheessa varmistin ChatGPT:ltä, että sivuston antama komento ei ainakaan tee mitään pahaa.) Suoritin komennon “py -m pip install pywin32”. (En nähnyt sivustolla mainittua pip-päivitystä, joten en tehnyt siihen liittyvää kohtaa.)
+klo 14:16 Sivuston ohjeen mukaan avasin Powershellin admin-oikeuksilla. (Tässä vaiheessa varmistin ChatGPT:ltä, että sivuston antama komento ei ainakaan tee mitään pahaa.) Suoritin komennon “py -m pip install pywin32”. (En nähnyt sivustolla mainittua pip-päivitystä, joten en tehnyt siihen liittyvää kohtaa.)
 
-Klo 14:22
-Aloitin siis Virtual Boxin asennuksen uudelleen. Taas klikkasin kaksi kertaa next, varoituksesta next, Custom Setup-kohdast jätin kaikki valituiksi (Create start menu entries etc). Sen Jälkeen "Click installation". Tämän jälkeen klikkasin Finish.
+Klo 14:22 Aloitin siis Virtual Boxin asennuksen uudelleen. Taas klikkasin kaksi kertaa next, varoituksesta next, Custom Setup-kohdast jätin kaikki valituiksi (Create start menu entries etc). Sen Jälkeen "Click installation". Tämän jälkeen klikkasin Finish.
 
 ##Linuxin asennus
 (Tauko 14:30-15:30)
-Klo 15:30
-Avasin Virtual Boxin ja valitsin Machine...new, Create virtual Machine, expert mode
+Klo 15:30 Avasin Virtual Boxin ja valitsin Machine...new, Create virtual Machine, expert mode
 
 Lisäsin nimen ja hain ISO-imagen kansiosta, johon sen olin ladannut. Type-kohtaan laitaoin Linux ja version-kohtaan Debian (64 bit), ja  klikkasin boksin "Skip unattended installation".
  ![Add file: Upload](kuva3.jpg)
@@ -40,61 +36,54 @@ Hard Disk Type and Variant (default eli VDI (Virtual Box Image)
 
 Toisin kuin ohjeessa, tässä ei ollut valintaa "Dynamically allocated" vaan "Pre-allocate Full Size", jota en valinnut. Sitten Finish.
 
-Klo 15:55
-(Ohjeissa tämän jälkeen tulisi lisätä ISO Virtual Box kohdassa Settings, Storage ja Controller:IDn-alle, mutta olin siis jo lisännyt sen aiemmassa vaiheessa.)
+Klo 15:55 (Ohjeissa tämän jälkeen tulisi lisätä ISO Virtual Box kohdassa Settings, Storage ja Controller:IDn-alle, mutta olin siis jo lisännyt sen aiemmassa vaiheessa.)
 
 Tuplaklikkasin Linux2024-kuvaketta Virtual Boxissa. Ilmestyi ikkuna "Debian 12", josta valitsin ensimmäisen eli Live.
 
 Ruutu meni hetkeksi mustaksi, ja sitten Desktop tuli näkyviin. Desktopin oikeaan yläkulmaan tuli pari huomautusruutua, mutta en ehtinyt reagoida niihin, ennen kuin ne katosivat.
 
-Klo 16:03 
-Ylävasemmalta "Applications"-kohdasta avasin Web Browserin ja kokeilin, että netti toimii.
+Klo 16:03 Ylävasemmalta "Applications"-kohdasta avasin Web Browserin ja kokeilin, että netti toimii.
 
-16:07
-Klikkasin ikonia Install Debian.
-Tuli varoitus, klikkasin "Run anyway"
+16:07 Klikkasin ikonia Install Debian. Tuli varoitus, klikkasin "Run anyway".
 Welcome-sivun language jätin default, American English ja klikkasin Next
 Aikavyöhyke-kartasta valitsin Europe/Helsinki ja Next
-Keyboard Model otin defaultin eli Generic 105-key PC, joka oli vähän erilainen kuin ohje, joissa oli lisäksi (intl.)
+Keyboard Model otin defaultin eli Generic 105-key PC, joka oli vähän erilainen kuin ohjeessa, joissa oli lisäksi (intl.)
 Vasemmalta valikosta otin Finnish ja oikeaan valikkoon jätin Default.
-Tässä kohtaa Core Temp 1.18.1. valitti, että yksi tai kaksi prosessoria ylittivät itseni laittamat maksimilämpötilat, joten irrotin virtapiuhan koneesta.
+ ![Add file: Upload](kuva4.jpg)
 
-16:15: Seuraava kohta, Erase disk ja jätin Boot loader location defaultiin eli Master Boot record of VBOX Harddisk
+(Tässä kohtaa Core Temp -ohjelma valitti, että yksi tai kaksi prosessoria ylittivät itseni laittamat varoituslämpötilat, joten irrotin virtapiuhan koneesta.)
+
+Klo 16:15 Seuraava kohta, Erase disk ja jätin Boot loader location defaultiin eli Master Boot record of VBOX Harddisk
 Next
-Laitoin oman nimeni, login-nimeksi sanna, koneen nimeksi
-forte16 ja salasanan. Log in without password...no.
-Next
-16:23 INSTALL
-16:34 All done. Restart now? valittuna ja Done.
-Aluksi tuli hämäävästi Debian-desktop, mutta jonkin ajan päästä näkyy login-ikkuna
-16:39
-ilmoitus:
+Laitoin nimeni, login-nimen ja koneen nimen sekä salasanan. "Log in without password" -kohtaan "no". Sitten klikkasin "install".
+Klo 16_34 Installoimiseen meni noin kymmenen minuuttia. Valitsin uudelleenkäynnistämisen ja "Done".
+Aluksi tuli hämäävästi Debian-desktop, mutta jonkin ajan päästä näkyy login-ikkuna.
+
+Klo 16:39 Tässä kohtaa tuli ilmoitus:
 Ibus Notification
 Keymap changes do not work in Plasma Wayland at present. Please use systemsettings5 instead.
-Googlasin ja löysin keskustelun, jonka perusteella päätin jättää välittämättä siitä. 
-https://lists.debian.org/debian-input-method/2024/02/msg00040.html
-16:45 avasin nettiselaimen ja tarkistin että netti toimii
-tsekkasin paljonko on muistia
-Avasin Terminal Emulatorin
-kirjoitin "sudo apt-get update" sen jälkeen laitoin salasanan. Se lataili kaikenlaista.
-16:48: kirjoitin "sudo apt-get -y dist-upgrade", ei kysynyt salasanaa ja lataili vielä enemmän tavaraa. 
-16:54 kysyi salasanaa, jonka laitoin, sen jälkeen tekee jotain setuppeja ehkä noin minuutin
-16:56 asensin palomuurin "sudo apt-get -y install uf"'ja "sudo ufw enable" minkä jälkeen näkyi teksti "Firewall is active and enabled on system startup"
-17:00 Appplications, logout, restart (poistin ruksin kohdasta Save session for future logins)'
-Restarttasi normaalisti
+Googlasin ja löysin keskustelun https://lists.debian.org/debian-input-method/2024/02/msg00040.html, jonka perusteella päätin jättää välittämättä ilmoituksesta.
 
-17:05-
-VirtualBox Guest Additions 
-Virtual Box - Devices, Insert Guest Additions CD image...
-se ilmestyi debianin Desktoppiin
-Applications, File manageria ja sieltä Devices-kohdassa etsin desktopista kyseisen VBox-GAS_
-17:11
-Avasin terminator emulatorin ja kirjoitin "cd /media/*/Vbox*
-ja sitten ls
-sitten kun ollaan oikeassa kansiossa niin sudo bash VBoxLinuxAdditions.run
-alkoi tehdä jotain
-valittaa, että Kernel headers not found for target kernel 6.1.0-23-amd64 please install them and execute. Desktop on kuitenkoin nyt iso. 
-klo 17:20 restarttasin
-Otin snapshotin,machine,take a snapshot. Lopetus
-17:23 the end
+ ![Add file: Upload](kuva5.jpg)
+ 
+Klo 16:45 avasin nettiselaimen ja tarkistin, että netti toimii.
+
+Avasin Terminal Emulatorin ja kirjoitin "sudo apt-get update", minkä jälkeen laitoin salasanan. Se lataili kaikenlaista.
+16:48 Kirjoitin "sudo apt-get -y dist-upgrade", ei kysynyt salasanaa ja lataili vielä enemmän tavaraa. 
+16:54 kysyi salasanaa, jonka laitoin, sen jälkeen teki jotain setuppeja ehkä noin minuutin ajan.
+16:56 asensin palomuurin "sudo apt-get -y install uf"'ja "sudo ufw enable" minkä jälkeen näkyi teksti "Firewall is active and enabled on system startup"
+ ![Add file: Upload](kuva6.jpg)
+
+Klo 17:00 Kohdasta Appplications valitsin logout ja restart (poistin ruksin kohdasta Save session for future logins). Uudelleenkäynnistys sujui normaalisti.
+
+
+### VirtualBox Guest Additions 
+Klo 17:05 Virtual Boxi kohdasta "Devices" valitsin "Insert Guest Additions CD image", ja 
+se ilmestyi Debianin desktoppiin.
+Debianin kohdasta Applications, File manageri ja sieltä Devices-kohdassa etsin desktopista kyseisen tiedoston VBox-GAS_...
+
+Klo 17:11 Avasin Terminator emulatorin ja kirjoitin "cd /media/*/Vbox* ja sitten ls. Kun olin oikeassa kansiossa, niin kirjoitin "sudo bash VBoxLinuxAdditions.run". Jotain alkoi tapahtua. Sitten tuli ilmoitus "Kernel headers not found for target kernel 6.1.0-23-amd64 please install them and execute." Työpöytä oli kuitenkin muuttunut isoksi.
+ ![Add file: Upload](kuva7.jpg)
+klo 17:20 Uudelleenkäynnistys ja lopetus.
+
 
