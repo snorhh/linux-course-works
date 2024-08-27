@@ -1,16 +1,17 @@
 # Virtual Boxin ja Linuxin asennus
 
 ## Laitteisto
-Asus TUF Gaming -kannettava
-RAM 8,00 GB
-HDD 512 GB
-Prosessori i5-11H
-Järjestelmätyyppi 64 bit
-Käyttöjärjestelmä Windows 11
+-Asus TUF Gaming -kannettava
+-RAM 8,00 GB
+-HDD 512 GB
+-Prosessori i5-11H
+-Järjestelmätyyppi 64 bit
+-Käyttöjärjestelmä Windows 11
 
 ## Virtual Boxin asennus
 
-Klo 13:50  Latasin Debian Iso imagen, tiedosto debian-live-12.6.0-amd64-xfce.iso 
+Klo 13:50  
+Latasin Debian Iso imagen, tiedosto debian-live-12.6.0-amd64-xfce.iso 
 sivulta https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/ (n. 3GB)
 
 Sen jälkeen latasin Virtual Boxin sivulta https://www.virtualbox.org/wiki/Downloads
