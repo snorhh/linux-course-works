@@ -1,7 +1,7 @@
-#Linux-palvelimet
-##Tehtävä h1
+# Linux-palvelimet
+## Tehtävä h1
 
-###Tiivistelmä tekstistä Raportin kirjoittaminen, Karvinen, Tero, 6.6.2006 https://terokarvinen.com/2006/raportin-kirjoittaminen-4/ 
+### Tiivistelmä tekstistä Raportin kirjoittaminen, Karvinen, Tero, 6.6.2006 https://terokarvinen.com/2006/raportin-kirjoittaminen-4/ 
 -	Miksi kirjoittaa raportti? Asiat muistiin ja samalla ajatukset selkenevät.
 -	Toistettavuus: jonkun toisen tekemänä pitää tulla sama tulos, muista raportoida myös laitteisto.
 -	Täsmällisyys: mitä teit ja milloin, mitä sitten tapahtui tai ei tapahtunut. Mistä tiedät mitä tapahtui? Raportoi tarvittaessa eteenpäin laitteistosta tai ohjelmiston vioista.
