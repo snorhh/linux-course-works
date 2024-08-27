@@ -1,7 +1,7 @@
 # Linux-palvelimet
 ## Tehtävä h1
 
-### Tiivistelmä tekstistä Raportin kirjoittaminen, Karvinen, Tero, 6.6.2006 https://terokarvinen.com/2006/raportin-kirjoittaminen-4/ 
+### Tiivistelmä tekstistä Raportin kirjoittaminen, Karvonen, Tero, 6.6.2006 https://terokarvinen.com/2006/raportin-kirjoittaminen-4/ 
 -	Miksi kirjoittaa raportti? Asiat muistiin ja samalla ajatukset selkenevät.
 -	Toistettavuus: jonkun toisen tekemänä pitää tulla sama tulos, muista raportoida myös laitteisto.
 -	Täsmällisyys: mitä teit ja milloin, mitä sitten tapahtui tai ei tapahtunut. Mistä tiedät mitä tapahtui? Raportoi tarvittaessa eteenpäin laitteistosta tai ohjelmiston vioista.
@@ -121,7 +121,7 @@ klo 17:20
 Uudelleenkäynnistys ja lopetus.
 
 ### Lähteet
-- Karvinen, Tero, Install Debian on Virtualbox - updated 2023 https://terokarvinen.com/2021/install-debian-on-virtualbox/
+- Karvonen, Tero, Install Debian on Virtualbox - updated 2023 https://terokarvinen.com/2021/install-debian-on-virtualbox/
 - Debian.org, sähköpostilista https://lists.debian.org/debian-input-method/2024/02/msg00040.html
 - Bagci, Tolca, 22.7.2024, How to Fix Missing Dependencies Python Core / win32api in VirtualBox https://www.sysnettechsolutions.com/en/fix-python-win32api-virtualbox/
 
