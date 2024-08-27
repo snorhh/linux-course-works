@@ -14,20 +14,17 @@ Suoritin ladatun .exe.tiedoston, ja klikkasin kolmeen ensimmäiseen kohtaan next
 Tässä kohtaa tuli ilmoitus, että koneesta puuttui Python core/win32api
  ![Add file: Upload](kuva1.jpg)
 
-duckduckasin Python core package win32.api virtual box
-sivu https://www.sysnettechsolutions.com/en/fix-python-win32api-virtualbox/
-Sivun ohjeiden perusteella latasin sivulta https://www.python.org/downloads/ 
-tiedoston python-3.12.5-amd64.exe ja ajoin admin.oikeuksilla
+Keskeytin asennuksen, ja Duckduckgo-haualla löysin sivun  https://www.sysnettechsolutions.com/en/fix-python-win32api-virtualbox/, jonka ohjeiden perusteella latasin sivulta  https://www.python.org/downloads/ tiedoston python-3.12.5-amd64.exe. Suoritin sen admin.oikeuksilla
 ja klikkasin boksit "use admin privileges when installing py.exe" sekä "add python to Path"
-(kuva 2)
-klo 14:16
-sivun ohjeen mukaan avasin powershellin admin-oikeuksilla 
-Tässä vaiheessa kysyin ChatGPT:ltä, että mitä komento "Now, open PowerShell/CMD as admin, and type “py -m pip install pywin32” to install pywin32." tekee. ChatGPT ei ainakaan sanonut sen olevan mitenkään haitallinen, joten suoritin sen PowerShellissa. 
-(En nähnyt pip-päivitystä, joten en tehnyt kohtaa 4)
 
-14:22- uusi VirtualBox-asennusyritys, eli suoritan virtualbox.exen admin-oikeuksilla
-Taas klikkasin kaksi kertaa next, varoituksesta next, Custom Setup-kohdast jätin kaikki valituiksi (Create start menu entries etc). Sen Jälkeen "Click installation". Tämän jälkeen klikkasin Finish.TAUKO
-Tauko alkaa 14:27-15:30
+ ![Add file: Upload](kuva2.jpg)
+klo 14:16
+Sivuston ohjeen mukaan avasin Powershellin admin-oikeuksilla. (Tässä vaiheessa varmistin ChatGPT:ltä, että sivuston antama komento ei ainakaan tee mitään pahaa.) Suoritin komennon “py -m pip install pywin32”. (En nähnyt sivustolla mainittua pip-päivitystä, joten en tehnyt siihen liittyvää kohtaa.)
+
+Klo 14:22
+Aloitin siis Virtual Boxin asennuksen uudelleen. Taas klikkasin kaksi kertaa next, varoituksesta next, Custom Setup-kohdast jätin kaikki valituiksi (Create start menu entries etc). Sen Jälkeen "Click installation". Tämän jälkeen klikkasin Finish.
+
+(Tauko 14:30-15:30)
 15:30 jatkuu
 Avasin Virtual Boxin
 Machine...new, Create virtual Machine
