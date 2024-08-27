@@ -34,7 +34,7 @@ Klo 13:50
 Latasin Debian Iso imagen, tiedosto debian-live-12.6.0-amd64-xfce.iso 
 <a href="https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/">Debian-sivulta</a> (n. 3 GB).
 
-Sen jälkeen latasin Virtual Boxin sivulta <a href="https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid">Virtualbox.org</a> 
+Sen jälkeen latasin Virtual Boxin sivulta <a href="https://www.virtualbox.org/wiki/Downloads">Virtualbox.org</a> 
 kohdasta "VirtualBox 7.0.20 platform packages-Windows hosts" (n. 100 MB).
 
 Suoritin ladatun .exe-tiedoston ja klikkasin kolmeen ensimmäiseen kohtaan "next".
