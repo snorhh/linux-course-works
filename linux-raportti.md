@@ -41,6 +41,7 @@ Suoritin ladatun .exe-tiedoston ja klikkasin kolmeen ensimmäiseen kohtaan "next
 
 ### Python core puuttuu
 Tässä kohtaa tuli ilmoitus, että koneesta puuttui Python core/win32api.
+
  ![Add file: Upload](kuva1.jpg)
 
 Keskeytin asennuksen ja Duckduckgo-haulla löysin sivun  <a href="https://www.sysnettechsolutions.com/en/fix-python-win32api-virtualbox/">https://www.sysnettechsolutions.com/en/fix-python-win32api-virtualbox/</a>, jonka ohjeiden perusteella latasin <a href="https://www.python.org/downloads/">Python.org-sivustolta</a> tiedoston "python-3.12.5-amd64.exe". Suoritin sen admin-oikeuksilla ja klikkasin boksit "use admin privileges when installing py.exe" sekä "add python to Path".
@@ -130,6 +131,4 @@ Uudelleenkäynnistys ja lopetus.
 - Karvinen, Tero, Install Debian on Virtualbox - updated 2023 https://terokarvinen.com/2021/install-debian-on-virtualbox/
 - Debian.org, sähköpostilista https://lists.debian.org/debian-input-method/2024/02/msg00040.html
 - Bagci, Tolca, 22.7.2024, How to Fix Missing Dependencies Python Core / win32api in VirtualBox https://www.sysnettechsolutions.com/en/fix-python-win32api-virtualbox/
-- ChatGPT 4o (MarkDown-ohjeita)
-
-
+- ChatGPT 4o (MarkDown-ohjeita ym. pieniä neuvoja)
