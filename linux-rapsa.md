@@ -12,7 +12,7 @@
 -	Free software eli vapaa ohjelmisto tarkoittaa, että kuka tahansa voi käyttää, muokata, tutkia ja jakaa ohjelmistoa. 
 -	Neljä tärkeää vapautta:
       - Vapaus käyttää (ajaa) ohjelmaa mihin tarkoitukseen vaan.
- 	- Vapaus tutkia ja muuttaa ohjelman toimintaa haluamallasi tavalla. Lähdekoodin täytyy siis olla saavutettavissa.
+      - Vapaus tutkia ja muuttaa ohjelman toimintaa haluamallasi tavalla. Lähdekoodin täytyy siis olla saavutettavissa.
       - Vapaus jakaa ohjelman kopioita muille.
       - Vapaus jakaa tekemiäsi muutoksia muille, jotta he voivat hyötyä muutoksista. 
 -	Vapaa ohjelmisto eroaa vapaan lähdekoodin ohjelmistoista. Vapaa ohjelmisto on eettinen näkökulma siitä, että ohjelmistojen tulisi olla vapaita kaikkien käytettäviksi.
