@@ -24,33 +24,33 @@ Sivuston ohjeen mukaan avasin Powershellin admin-oikeuksilla. (Tässä vaiheessa
 Klo 14:22
 Aloitin siis Virtual Boxin asennuksen uudelleen. Taas klikkasin kaksi kertaa next, varoituksesta next, Custom Setup-kohdast jätin kaikki valituiksi (Create start menu entries etc). Sen Jälkeen "Click installation". Tämän jälkeen klikkasin Finish.
 
+##Linuxin asennus
 (Tauko 14:30-15:30)
-15:30 jatkuu
-Avasin Virtual Boxin
-Machine...new, Create virtual Machine
-, expert mode
-Laitoin Name: Linux2024, hain ISO-imagen kansiosta,
-Type Linux, version Debian (64 bit), klikkasin boksin
-Skip unattended installation
-HUOM, jos tässä kohtaa ei laittanut ISO-imagea, niin kohta "Skip unattended Installation" on harmaan.a
-Kohdasta hardware: laitoin 2048MB
-en klikannut "Enable EFI (special OSes only)
+Klo 15:30
+Avasin Virtual Boxin ja valitsin Machine...new, Create virtual Machine, expert mode
+
+Lisäsin nimen ja hain ISO-imagen kansiosta, johon sen olin ladannut. Type-kohtaan laitaoin Linux ja version-kohtaan Debian (64 bit), ja  klikkasin boksin "Skip unattended installation".
+ ![Add file: Upload](kuva3.jpg)
+HUOM, jos tässä kohtaa ei laittanut ISO-imagea, niin kohta "Skip unattended Installation" oli harmaa, eikä sitä siis voinut valita. 
+
+Kohdasta hardware: laitoin 2048MB, en klikannut kohtaa "Enable EFI (special OSes only)
 Hard disk -kohta: Create a Virtual Hard Disk Now
 Hard Disk Size 60,00 GB
 Hard Disk Type and Variant (default eli VDI (Virtual Box Image)
-Toisin kuin ohjeessa, kohdassa ei ollut valintaa "Dynamically allocated" vaan "Pre-allocate Full Size", jota en valinnut.
-Tämän jälkeen klikkasin Finish.
+
+Toisin kuin ohjeessa, tässä ei ollut valintaa "Dynamically allocated" vaan "Pre-allocate Full Size", jota en valinnut. Sitten Finish.
+
 Klo 15:55
-Ohjeissa tämän jälkeen tulisi lisätä ISO Virtual Boxin
-kohdassa Settings, Storage ja Controller:IDe-alle, mutta se siis on jo siellä.
-klo 15:59
-Tuplaklikkasin Linux2024-kuvaketta Virtual Boxissa.
-Ilmestyi ikkuna Debian 12, josta valitsin ensimmäisen eli Live
-Ruutu meni hetkeksi mustaksi ja sitten Desktop tuli näkyviin.
-Pari huomautusruutua tuli, en ehtinyt niihin reagoida.
-klo 16:03 Ylävasemmalta "Applications"-kohdasta avasin Web Browsering, ja kokeilin että netti toimii.
-Suljin selaimen.
-16:07:
+(Ohjeissa tämän jälkeen tulisi lisätä ISO Virtual Box kohdassa Settings, Storage ja Controller:IDn-alle, mutta olin siis jo lisännyt sen aiemmassa vaiheessa.)
+
+Tuplaklikkasin Linux2024-kuvaketta Virtual Boxissa. Ilmestyi ikkuna "Debian 12", josta valitsin ensimmäisen eli Live.
+
+Ruutu meni hetkeksi mustaksi, ja sitten Desktop tuli näkyviin. Desktopin oikeaan yläkulmaan tuli pari huomautusruutua, mutta en ehtinyt reagoida niihin, ennen kuin ne katosivat.
+
+Klo 16:03 
+Ylävasemmalta "Applications"-kohdasta avasin Web Browserin ja kokeilin, että netti toimii.
+
+16:07
 Klikkasin ikonia Install Debian.
 Tuli varoitus, klikkasin "Run anyway"
 Welcome-sivun language jätin default, American English ja klikkasin Next
