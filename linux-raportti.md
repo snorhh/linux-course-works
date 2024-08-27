@@ -12,10 +12,10 @@
 
 Klo 13:50  
 Latasin Debian Iso imagen, tiedosto debian-live-12.6.0-amd64-xfce.iso 
-[Debian-sivulta] (https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/) (n. 3GB)
-<a href="https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/">Debian-sivulta</a>
+<a href="https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/">Debian-sivulta</a> (n. 3GB)
 
-Sen jälkeen latasin Virtual Boxin sivulta https://www.virtualbox.org/wiki/Downloads
+
+Sen jälkeen latasin Virtual Boxin sivulta <a href="https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid">Virtualbox.org-sivustolta</a> 
 kohdasta VirtualBox 7.0.20 platform packages-Windows hosts (n. 100 MB)
 
 Suoritin ladatun .exe.tiedoston, ja klikkasin kolmeen ensimmäiseen kohtaan next.click next.
@@ -23,8 +23,7 @@ Suoritin ladatun .exe.tiedoston, ja klikkasin kolmeen ensimmäiseen kohtaan next
 Tässä kohtaa tuli ilmoitus, että koneesta puuttui Python core/win32api
  ![Add file: Upload](kuva1.jpg)
 
-Keskeytin asennuksen, ja Duckduckgo-haualla löysin sivun  https://www.sysnettechsolutions.com/en/fix-python-win32api-virtualbox/, jonka ohjeiden perusteella latasin sivulta  https://www.python.org/downloads/ tiedoston python-3.12.5-amd64.exe. Suoritin sen admin.oikeuksilla
-ja klikkasin boksit "use admin privileges when installing py.exe" sekä "add python to Path"
+Keskeytin asennuksen, ja Duckduckgo-haualla löysin sivun  <a href"="https://www.sysnettechsolutions.com/en/fix-python-win32api-virtualbox/>https://www.sysnettechsolutions.com/en/fix-python-win32api-virtualbox/</a>, jonka ohjeiden perusteella latasin sivulta  <a href="https://www.python.org/downloads/" />Python.org-sivustolta</a> tiedoston python-3.12.5-amd64.exe. Suoritin sen admin.oikeuksilla ja klikkasin boksit "use admin privileges when installing py.exe" sekä "add python to Path"
 
  ![Add file: Upload](kuva2.jpg)
 klo 14:16  
@@ -81,7 +80,7 @@ Klo 16:39
 Tässä kohtaa tuli ilmoitus:  
 Ibus Notification
 Keymap changes do not work in Plasma Wayland at present. Please use systemsettings5 instead.
-Googlasin ja löysin keskustelun https://lists.debian.org/debian-input-method/2024/02/msg00040.html, jonka perusteella päätin jättää välittämättä ilmoituksesta.
+Googlasin ja löysin keskustelun <a href="https://lists.debian.org/debian-input-method/2024/02/msg00040.html />Debian.org-sivustolta</a>, jonka perusteella päätin jättää välittämättä ilmoituksesta.
 
  ![Add file: Upload](kuva5.jpg)
  
